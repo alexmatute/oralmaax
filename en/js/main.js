@@ -131,11 +131,11 @@ function team_carousel(){
     $('.team-carousel').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 1500,
         arrows: false,
         dots: false,
-        pauseOnHover: false,
+        pauseOnHover: true,
         responsive: [{
             breakpoint: 992,
             settings: {
